@@ -21,6 +21,9 @@ figure img{
     color:white;
 }
 
+.subtitulo{
+    border-bottom: 2px solid #2E4255;
+}
 .matriz-musicdot{
     width: 550px;
     margin: 0 auto;
