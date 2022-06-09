@@ -1,0 +1,2 @@
+Flex é uma ótima ferramenta para quando	temos elementos que precisam ser
+distribuídos de	maneira	igual e	com	uma	direção	bem	definida.
