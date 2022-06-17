@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.foto-container {
+    width: 66%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "vermelho	vermelho	verde"
+    "vermelho	vermelho	verde";
+
+
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    background-color: #FF002B;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(176, 176, 176);
+}
+
+.foto-destaque-verde {
+    background-color: #24cc2d;
+    height: 400px;
+    /*grid-row: span 2;
+    //grid-column:	4;
+    */
+    grid-area:	verde;
+}
